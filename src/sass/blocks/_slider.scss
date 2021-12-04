@@ -1,20 +1,25 @@
-.swiper {
-    // margin: 0 auto;
-
-    &__img {
-        img {
-            // display: block;
-            // margin: 0 auto;
-            // width: 100%;
+.slider {
+    .swiper {
+        // position: absolute;
+        &__img {
+            img {
+                display: block;
+                margin: 0 auto;
+                // width: 60%;
+            }
+        }
+    }
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__item {
+            display: block;
+            // width: 20%;
         }
     }
 }
-.slider {
-    // overflow: hidden;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
+
 body {
     background-color: red;
 }

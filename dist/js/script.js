@@ -12,7 +12,6 @@ window.addEventListener('DOMContentLoaded', function () {
         fadeEffect: {
             crossFade: true,
         },
-        centeredSlides: false,
         slidesPerView: 1,
 
     });
